@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { client } from '@/lib/prismic';
-import Prismic from 'prismic-javascript';
 import PrismicDom from 'prismic-dom';
 import { Document } from 'prismic-javascript/types/documents';
 
